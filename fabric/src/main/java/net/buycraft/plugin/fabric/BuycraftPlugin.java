@@ -72,7 +72,7 @@ public class BuycraftPlugin implements DedicatedServerModInitializer {
     private ServerEventSenderTask serverEventSenderTask;
     private BuyCommand buyCommand;
 
-    private final String MOD_VERSION = "1.0.0";
+    private final String MOD_VERSION = "1.0.1";
     private final int TICKS_PER_SECOND = 50;
 
     private final Path MOD_PATH = new File("./mods/" + MOD_ID).toPath();
